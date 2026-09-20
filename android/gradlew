@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+echo "This project uses the system Gradle wrapper. Please generate gradle wrapper via Android Studio or run with your local gradle."

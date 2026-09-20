@@ -1,0 +1,21 @@
+{
+  "1": [
+    {
+      "q":"What does HTML stand for?",
+      "options":["HyperText Markup Language","Home Tool Markup Language","Hyperlinks and Text Markup"],
+      "a":0
+    },
+    {
+      "q":"Which tag creates a paragraph?",
+      "options":["<p>","<para>","<paragraph>"],
+      "a":0
+    }
+  ],
+  "2": [
+    {
+      "q":"Which tag is semantic for important text?",
+      "options":["<b>","<strong>","<i>"],
+      "a":1
+    }
+  ]
+}

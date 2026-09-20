@@ -1,0 +1,5 @@
+
+android/*.keystore
+android/app/key.jks
+.gradle
+/local.properties

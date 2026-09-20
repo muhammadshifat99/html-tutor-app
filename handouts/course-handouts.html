@@ -1,0 +1,129 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>
+body{font-family:Arial,Helvetica,sans-serif;padding:24px;line-height:1.4;color:#222}
+h1{font-size:28px}
+h2{font-size:22px}
+pre{background:#f4f4f4;padding:10px;border-radius:4px}
+code{background:#eee;padding:2px 4px;border-radius:3px}
+table{border-collapse:collapse}
+th,td{border:1px solid #999;padding:6px}
+</style></head><body><p>Course Handouts — HTML Full Curriculum</p>
+
+<p>Printed reference summarizing Lessons 1–16</p>
+
+<p>Lesson 1 — HTML Basics</p>
+<ul>
+<li>What: Purpose of HTML; document skeleton (`<!doctype html>`, `html`, `head`, `body`).</li>
+<li>Key tags: `h1`–`h6`, `p`, `strong`, `em`, `br`, `hr`.</li>
+<li>Quick tasks: Create a `basic.html` page; change `<title>` and refresh.</li>
+</ul>
+
+<p>Lesson 2 — Text & Inline Elements</p>
+<ul>
+<li>Distinguish block vs inline; use semantic inline tags: `strong`, `em`, `abbr`, `mark`, `code`, `q`, `del`, `ins`.</li>
+<li>Replace presentational tags (`b`, `i`) with semantic ones.</li>
+<li>Exercise: annotate abbreviations and wrap inline quotes.</li>
+</ul>
+
+<p>Lesson 3 — Links & Images</p>
+<ul>
+<li>Links: `<a href=...>`; `target="_blank"` + `rel="noopener noreferrer"`.</li>
+<li>Images: `img` with `src` and descriptive `alt`; decorative images use `alt=""`.</li>
+<li>Responsive images: `srcset` + `sizes`; use `loading="lazy"`.</li>
+</ul>
+
+<p>Lesson 4 — Lists & Tables</p>
+<ul>
+<li>Lists: `<ul>`, `<ol>`, `<dl>`; nest lists correctly.</li>
+<li>Tables: `<table>`, `<caption>`, `<thead>`, `<tbody>`, `<th scope=>` for accessibility.</li>
+<li>Rule: Use tables for tabular data only, not layout.</li>
+</ul>
+
+<p>Lesson 5 — Forms & Inputs</p>
+<ul>
+<li>Form elements: `<form>`, `<label>`, `<input>`, `<textarea>`, `<select>`, `<button>`.</li>
+<li>Accessibility: associate `<label for>` with inputs; use `fieldset`/`legend`.</li>
+<li>Validation: HTML5 attributes (`required`, `pattern`, `min`/`max`).</li>
+</ul>
+
+<p>Lesson 6 — Semantic HTML & ARIA</p>
+<ul>
+<li>Semantic landmarks: `header`, `nav`, `main`, `article`, `section`, `aside`, `footer`.</li>
+<li>ARIA: use only when native HTML lacks semantics; common attributes: `role`, `aria-label`, `aria-hidden`, `aria-live`.</li>
+<li>Test with keyboard and accessibility tools.</li>
+</ul>
+
+<p>Lesson 7 — Media: Audio & Video</p>
+<ul>
+<li>Use `<audio>` and `<video>` with `controls` and fallback content.</li>
+<li>Captions: add `<track kind="captions">` and provide transcripts.</li>
+<li>Accessibility: avoid autoplay; add `poster`, `loading`, and responsive sizing.</li>
+</ul>
+
+<p>Lesson 8 — DOM & HTML APIs</p>
+<ul>
+<li>Selectors: `getElementById`, `querySelector`, `querySelectorAll`.</li>
+<li>Manipulation: `textContent`, `innerHTML`, `createElement`, `appendChild`, `remove()`.</li>
+<li>Events: `addEventListener`, `preventDefault`, `event.target`; use `classList` and `dataset`.</li>
+</ul>
+
+<p>Lesson 9 — CSS Basics for HTML</p>
+<ul>
+<li>Attach methods: inline, `<style>`, external `link`.</li>
+<li>Selectors: element, class, id, combinators; box model and `box-sizing`.</li>
+<li>Common properties: `color`, `background`, `margin`, `padding`, `border`.</li>
+</ul>
+
+<p>Lesson 10 — Flexbox & Grid</p>
+<ul>
+<li>Flexbox for 1D layouts (rows/columns): `display:flex`, `justify-content`, `align-items`.</li>
+<li>Grid for 2D layouts: `display:grid`, `grid-template-columns`, `gap`, named areas.</li>
+<li>Use DevTools grid/flex visualizers when designing.</li>
+</ul>
+
+<p>Lesson 11 — Responsive Design</p>
+<ul>
+<li>Mobile-first approach, `@media` queries, relative units (`%, em, rem, vw`).</li>
+<li>Breakpoints example: 768px and 1024px.</li>
+<li>Test with device emulation and scale images with `max-width:100%`.</li>
+</ul>
+
+<p>Lesson 12 — Accessibility Best Practices</p>
+<ul>
+<li>Run audits (Lighthouse, axe), ensure keyboard navigation and visible focus.</li>
+<li>Provide descriptive `alt`, labels, and sufficient contrast.</li>
+<li>Keep ARIA minimal and test with screen readers.</li>
+</ul>
+
+<p>Lesson 13 — SEO & Performance Basics</p>
+<ul>
+<li>SEO: semantic HTML, descriptive titles/meta descriptions, heading structure.</li>
+<li>Performance: optimize images, lazy-load, minimize render-blocking resources, use `defer`/`async`.</li>
+<li>Measure with Lighthouse and prioritize LCP/CLS improvements.</li>
+</ul>
+
+<p>Lesson 14 — Projects & Portfolio</p>
+<ul>
+<li>Project checklist: semantics, accessibility, responsiveness, deployability.</li>
+<li>Suggested projects: portfolio site, product list, blog template, TODO app.</li>
+<li>Deployment: GitHub Pages, Netlify; include a README.</li>
+</ul>
+
+<p>Lesson 15 — Assessments & Quizzes</p>
+<ul>
+<li>Mix of MCQs and practical tasks; rubric: semantics/accessibility (30%), responsiveness (25%), functionality (20%).</li>
+<li>Example practical: clean a broken HTML file and make it accessible.</li>
+</ul>
+
+<p>Lesson 16 — Resources & Next Steps</p>
+<ul>
+<li>MDN, W3C ARIA Authoring Practices, freeCodeCamp, Lighthouse docs.</li>
+<li>Next topics: advanced CSS, JS frameworks, server basics, accessibility specialization.</li>
+</ul>
+
+<p>Printing notes</p>
+<ul>
+<li>Use a markdown-to-PDF tool (Pandoc or VS Code "Print Markdown") to create printable PDFs.</li>
+<li>Recommended font size: 11–12pt, use page breaks between lessons.</li>
+</ul>
+
+<p>-- End of handouts --</p></body></html>
